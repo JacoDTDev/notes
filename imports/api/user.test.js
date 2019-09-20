@@ -27,9 +27,14 @@ describe('add',function () {
 
 //next example
 const square = (a)=>a*a;
-it('should square a number',function () {
-    const res = square(11);
-    if(res !==121){
-        throw new Error('Did not square number');
-    }
+
+describe('square',function () {
+    it('should square a number',function () {
+        const res = square(11);
+        if(res !==121){
+            throw new Error('Did not square number');
+        }
+    });
 });
+
+
