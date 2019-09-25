@@ -4,6 +4,7 @@
     <list default="true" id="3ebccc58-5106-450c-8829-582a8a420b29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/api/user.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/user.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <workItem from="1568965684072" duration="3769000" />
       <workItem from="1568980147853" duration="7830000" />
       <workItem from="1569392153285" duration="1066000" />
-      <workItem from="1569393604994" duration="3027000" />
+      <workItem from="1569393604994" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="115. The Meteor Test Command">
       <created>1568981108790</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569395962950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="117.2 Using An Assertion Library&#10;using the exact code">
+      <created>1569397317649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569397317649</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +133,7 @@
     <MESSAGE value="116. Exploring Mocha and Expect&#10;grouping the test cases" />
     <MESSAGE value="116. Exploring Mocha and Expect&#10;grouping the test cases more examples" />
     <MESSAGE value="117.1 Using An Assertion Library&#10;Before using expect" />
-    <option name="LAST_COMMIT_MESSAGE" value="117.1 Using An Assertion Library&#10;Before using expect" />
+    <MESSAGE value="117.2 Using An Assertion Library&#10;using the exact code" />
+    <option name="LAST_COMMIT_MESSAGE" value="117.2 Using An Assertion Library&#10;using the exact code" />
   </component>
 </project>

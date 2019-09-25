@@ -1,44 +1,39 @@
 import expect from 'expect';
-const add = (a,b)=>{
-    if(typeof b!=='number'){
-        return a+a;
-    }
-    return a+b;
-};
+import {Meteor} from 'meteor/meteor';
 
-//create a group
-describe('add',function () {
-    //test for the first return
-    it('should add two numbers',function(){
-        const res = add(11,9);
-        //using expect
-        expect(res).toBe(20);
-        //instead of
-        // if (res!==20){
-        //     throw new Error('Sum was not equal to expected value')
-        // }
-    });
-//test for the second return
-    it('should double a single number',function () {
-        const res =add(44);
-        expect(res).toBe(88);
-        if(res!==88){
-            throw new Error('Number was not doubled')
-        }
-    });
-});
+import {validateNewUser} from "./users";
+//to change it to only run on server side
+if(Meteor.isServer){
+    describe('users',function(){
+//create two test cases, a pass and a fail
+        //if email is correct
+        it('should allow valid email address',function () {
+            const testUser = {
+                emails: [
+                    {
+                        address:'Test@example.com'
+                    }
+                ]
+            };
+            const res = validateNewUser(testUser);
 
-//next example
-const square = (a)=>a*a;
-
-describe('square',function () {
-    it('should square a number',function () {
-        const res = square(11);
-        expect(res).toBe(121);
-        // if(res !==121){
-        //     throw new Error('Did not square number');
-        // }
+            expect(res).toBe(true);
+        });
+        //if email is wrong
+        it('should reject invalid email',function () {
+            const testUser = {
+                emails: [
+                    {
+                        address:'Testexample.com'
+                    }
+                ]
+            };
+            expect(()=>{
+                validateNewUser(testUser);
+            }).toThrow();
+        })
     });
-});
+}
+
 
 
