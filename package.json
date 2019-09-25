@@ -17,5 +17,8 @@
   },
   "engines": {
     "node": "4.9.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2"
   }
 }

@@ -1,3 +1,4 @@
+import expect from 'expect';
 const add = (a,b)=>{
     if(typeof b!=='number'){
         return a+a;

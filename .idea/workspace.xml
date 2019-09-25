@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ebccc58-5106-450c-8829-582a8a420b29" name="Default Changelist" comment="" />
+    <list default="true" id="3ebccc58-5106-450c-8829-582a8a420b29" name="Default Changelist" comment="116. Exploring Mocha and Expect&#10;grouping the test cases more examples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,9 @@
       <updated>1568961583509</updated>
       <workItem from="1568961584891" duration="4024000" />
       <workItem from="1568965684072" duration="3769000" />
-      <workItem from="1568980147853" duration="7005000" />
+      <workItem from="1568980147853" duration="7830000" />
+      <workItem from="1569392153285" duration="1066000" />
+      <workItem from="1569393604994" duration="1600000" />
     </task>
     <task id="LOCAL-00001" summary="115. The Meteor Test Command">
       <created>1568981108790</created>
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568988253894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="116. Exploring Mocha and Expect&#10;grouping the test cases more examples">
+      <created>1568989263755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568989263755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -102,6 +115,7 @@
     <MESSAGE value="115. The Meteor Test Command" />
     <MESSAGE value="116. Exploring Mocha and Expect" />
     <MESSAGE value="116. Exploring Mocha and Expect&#10;grouping the test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="116. Exploring Mocha and Expect&#10;grouping the test cases" />
+    <MESSAGE value="116. Exploring Mocha and Expect&#10;grouping the test cases more examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="116. Exploring Mocha and Expect&#10;grouping the test cases more examples" />
   </component>
 </project>
